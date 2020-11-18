@@ -1,0 +1,22 @@
+{"display":
+	{"description":"Get a cobblestone",
+	"title":
+		{"text":"Miner","italic":true,"color":"gold"},
+	"icon":
+		{"item":"cobblestone","data":0},
+	"frame":"task"},
+	"criteria":{"inv_changed-cobblestone":{
+		"trigger":"minecraft:inventory_changed",
+		"conditions":{
+			"items":[
+				{
+					"item":"cobblestone",
+					"data":0
+				}
+				]
+			}
+		}
+	},
+	"rewards":{},
+	"requirements":[["inv_changed-cobblestone"]],
+	"parent":"new/ach5"}

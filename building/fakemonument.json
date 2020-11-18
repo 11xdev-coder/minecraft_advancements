@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine",
+			"data": 1
+        },
+        "title": {
+		"text":"Fake monument",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Collect all the types of prismarine blocks",
+			"color": "green"
+		}
+    },
+    "parent": "building/decoring_on_max",
+    "rewards": {
+		"function": "custom:functions/fakemonument"
+    },		
+    "criteria": {
+        "prismarine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine",
+						"data": 0
+                    }
+                ]
+            }
+        },
+		"prismarine_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine",
+						"data": 1
+                    }
+                ]
+            }
+        },
+		"dark_prismarine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine",
+						"data": 2
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"prismarine"
+		],
+		[
+		"prismarine_bricks"
+		],
+		[
+		"dark_prismarine"
+		]
+		]
+}

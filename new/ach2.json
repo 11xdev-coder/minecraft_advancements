@@ -1,0 +1,14 @@
+{"display":
+	{"description":"",
+	"title":
+		{"text":"Noob","bold":true,"color":"yellow"},
+	"icon":
+		{"item":"golden_chestplate","data":0},
+	"frame":"goal"},
+	"criteria":{"inv_changed-golden_hoe":
+		{"trigger":"minecraft:inventory_changed",
+		"conditions":
+			{"items":[{"item":"golden_hoe","data":0}]}}},
+	"rewards":{},
+	"requirements":[["inv_changed-golden_hoe"]],
+	"parent":"new/root"}

@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glass_pane",
+			"data": 0
+        },
+        "title": {
+		"text":"Why is this glass so narrow?",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Craft some glass panes",
+			"color": "green"
+		}
+    },
+    "parent": "building/ordinary_glass",
+    "rewards": {
+		"function": "custom:functions/ordinary_glass"
+    },		
+    "criteria": {
+        "glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glass_pane",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"glass_pane"
+		]
+		]
+}

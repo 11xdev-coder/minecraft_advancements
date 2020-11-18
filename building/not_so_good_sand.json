@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sand",
+			"data": 0
+        },
+        "title": {
+		"text":"Not so good sand:/",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Get the sand",
+			"color": "green"
+		}
+    },
+    "parent": "building/root",
+    "rewards": {
+		"function": "custom:functions/not_so_good_sand"
+    },		
+    "criteria": {
+        "sand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sand",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"sand"
+		]
+		]
+}
+	

@@ -1,0 +1,30 @@
+	{
+	"display":{
+		"description":"Kill the villager",
+		"title":{
+			"text":"Illager",
+			"bold":true,
+			"color":"red"
+		},
+		"icon":{
+			"item":"diamond_sword",
+			"data":0
+		},
+		"frame":"goal"
+	},
+	"criteria":{
+		"illvill":{
+			"trigger":"minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager"
+			}
+		}
+	}
+},
+	"rewards":{
+	
+	},
+	"requirements":[["illvill"]],
+	"parent":"new/ach2"}
+	

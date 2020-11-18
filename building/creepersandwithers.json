@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sandstone",
+			"data": 1
+        },
+        "title": {
+		"text":"Stop. Creeper? Wither? NOOOOOO!",
+		"color":"red"
+		},
+        "description": {
+			"text": "Get the sandstone with creeper and red sandstone with wither",
+			"color": "green"
+		}
+    },
+    "parent": "building/jailathome",
+    "rewards": {
+    },		
+    "criteria": {
+        "creeper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sandstone",
+						"data": 1
+                    }
+                ]
+            }
+        },
+		"wither": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_sandstone",
+						"data": 1
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"creeper"
+		],
+		[
+		"wither"
+		]
+		]
+}
+	

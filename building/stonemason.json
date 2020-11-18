@@ -1,0 +1,79 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone",
+			"data": 1
+        },
+        "title": {
+		"text":"Stonemason",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Collect all the types of rocks",
+			"color": "gray"
+		}
+    },
+    "parent": "building/root",
+    "rewards": {
+		"function": "custom:functions/stonemason"
+    },		
+    "criteria": {
+        "cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        },
+        "granite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone",
+						"data": 1
+                    }
+                ]
+            }
+        },
+        "diorite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone",
+						"data": 3
+                    }
+                ]
+            }
+        },
+        "andesite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone",
+						"data": 5
+                    }
+                ]
+            }
+        }	
+	},
+	"requirements": [
+		[
+		"cobblestone"
+		],
+		[
+		"granite"
+		],
+		[
+		"diorite"
+		],
+		[
+		"andesite"
+		]
+	]
+}

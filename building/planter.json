@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:flower_pot",
+			"data": 0
+        },
+        "title": {
+		"text":"Planter",
+		"color":"green"
+		},
+        "description": {
+			"text": "Craft and place flower pot",
+			"color": "green"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "building/build_your_house",
+    "rewards": {
+    },		
+    "criteria": {
+        "flower_pot": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:flower_pot"
+            }
+        }
+	},
+	"requirements": [
+		[
+		"flower_pot"
+		]
+		]
+}

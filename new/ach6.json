@@ -1,0 +1,22 @@
+{"display":
+	{"description":"Craft your first sword",
+	"title":
+		{"text":"Time to attack!","italic":true,"color":"gold"},
+	"icon":
+		{"item":"wooden_sword","data":0},
+	"frame":"task"},
+	"criteria":{"inv_changed-wooden_sword":{
+		"trigger":"minecraft:inventory_changed",
+		"conditions":{
+			"items":[
+				{
+					"item":"wooden_sword",
+					"data":0
+				}
+				]
+			}
+		}
+	},
+	"rewards":{},
+	"requirements":[["inv_changed-wooden_sword"]],
+	"parent":"new/ach4"}

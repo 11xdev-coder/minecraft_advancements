@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brick_block",
+			"data": 0
+        },
+        "title": {
+		"text":"Build your house!",
+		"color":"green"
+		},
+        "description": {
+			"text": "Melt that clay in the furnace and craft brick block",
+			"color": "green"
+		}
+    },
+    "parent": "building/this_is_the_build_material",
+    "rewards": {
+		"function": "custom:functions/build_your_house"
+    },		
+    "criteria": {
+        "brick_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brick_block",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"brick_block"
+		]
+		]
+}

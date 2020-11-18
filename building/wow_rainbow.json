@@ -1,0 +1,252 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:concrete",
+			"data": 4
+        },
+        "title": {
+		"text":"WOW!! Rainbow!",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Collect every color of concrete",
+			"color": "gold"
+		},
+		"frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "building/frozen_sand",
+    "rewards": {
+        "function": "custom:functions/wow_rainbow"
+    },		
+    "criteria": {
+        "white_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 0
+                    }
+                ]
+            }
+        },
+		"orange_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 1
+                    }
+                ]
+            }
+        },
+		"magenta_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 2
+                    }
+                ]
+            }
+        },
+		"light_blue_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 3
+                    }
+                ]
+            }
+        },
+		"yellow_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 4
+                    }
+                ]
+            }
+        },
+		"lime_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 5
+                    }
+                ]
+            }
+        },
+		"pink_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 6
+                    }
+                ]
+            }
+        },
+		"gray_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 7
+                    }
+                ]
+            }
+        },
+		"light_gray_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 8
+                    }
+                ]
+            }
+        },
+		"cyan_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 9
+                    }
+                ]
+            }
+        },
+		"purple_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 10
+                    }
+                ]
+            }
+        },
+		"blue_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 11
+                    }
+                ]
+            }
+        },
+		"brown_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 12
+                    }
+                ]
+            }
+        },
+		"green_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 13
+                    }
+                ]
+            }
+        },
+		"red_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 14
+                    }
+                ]
+            }
+        },
+		"black_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:concrete",
+						"data": 15
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+        "white_clay"
+        ],
+        [
+        "orange_clay"
+        ],
+        [
+        "magenta_clay"
+        ],
+        [
+        "light_blue_clay"
+        ],
+        [
+        "yellow_clay"
+        ],
+        [
+        "lime_clay"
+        ],
+        [
+        "pink_clay"
+        ],
+        [
+        "gray_clay"
+        ],
+        [
+        "light_gray_clay"
+        ],
+        [
+        "cyan_clay"
+        ],
+        [
+        "purple_clay"
+        ],
+        [
+        "blue_clay"
+        ],
+        [
+        "brown_clay"
+        ],
+        [
+        "green_clay"
+        ],
+        [
+        "red_clay"
+        ],
+        [
+        "black_clay"
+        ]
+        ]
+}

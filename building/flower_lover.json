@@ -1,0 +1,229 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:yellow_flower",
+			"data": 0
+        },
+        "title": {
+			"text":"Flower lover",
+			"color":"gold"
+		},
+        "description": {
+			"text": "Put all flower into the flower pot!",
+			"color": "green"
+		},
+		"frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "building/planter",
+    "rewards": {
+		"function": "custom:functions/flower_lover"
+    },		
+    "criteria": {
+        "dandelion": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:yellow_flower"
+				}
+			}
+        },
+		"poppy": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 0
+				}
+			}
+        },
+		"blue_orchid": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 1
+				}
+			}
+        },
+		"allium": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 2
+				}
+			}
+        },
+		"azure_bluet": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 3
+				}
+			}
+        },
+		"red_tulip": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 4
+				}
+			}
+        },
+		"orange_tulip": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 5
+				}
+			}
+        },
+		"white_tulip": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 6
+				}
+			}
+        },
+		"pink_tulip": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 7
+				}
+			}
+        },
+		"oxeye_daisy": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_flower",
+					"data": 8
+				}
+			}
+        },
+		"dead_bush": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:deadbush"
+				}
+			}
+        },
+		"cactus": {
+            "trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:flower_pot"
+					}
+				},
+				"item": {
+					"item": "minecraft:cactus"
+				}
+			}
+        }
+	},
+	"requirements": [
+		[
+		"dandelion"
+		],
+		[
+		"poppy"
+		],
+		[
+		"blue_orchid"
+		],
+		[
+		"allium"
+		],
+		[
+		"azure_bluet"
+		],
+		[
+		"red_tulip"
+		],
+		[
+		"white_tulip"
+		],
+		[
+		"orange_tulip"
+		],
+		[
+		"pink_tulip"
+		],
+		[
+		"oxeye_daisy"
+		],
+		[
+		"dead_bush"
+		],
+		[
+		"cactus"
+		]
+		]
+}

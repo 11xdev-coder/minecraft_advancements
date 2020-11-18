@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clay_ball",
+			"data": 0
+        },
+        "title": {
+		"text":"This is the build material",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Get the clay",
+			"color": "green"
+		}
+    },
+    "parent": "building/not_so_good_sand",
+    "rewards": {
+    },		
+    "criteria": {
+        "clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clay_ball",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"clay"
+		]
+		]
+}

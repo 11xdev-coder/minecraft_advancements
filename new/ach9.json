@@ -1,0 +1,22 @@
+{"display":
+	{"description":"Craft the furnace",
+	"title":
+		{"text":"Hot thing!","italic":true,"color":"gold"},
+	"icon":
+		{"item":"furnace","data":0},
+	"frame":"task"},
+	"criteria":{"inv_changed-furnace":{
+		"trigger":"minecraft:inventory_changed",
+		"conditions":{
+			"items":[
+				{
+					"item":"furnace",
+					"data":0
+				}
+				]
+			}
+		}
+	},
+	"rewards":{},
+	"requirements":[["inv_changed-furnace"]],
+	"parent":"new/ach8"}

@@ -1,0 +1,71 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dirt",
+			"data": 2
+        },
+        "title": {
+		"text":"Dirt collection",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Get every type of dirt",
+			"color": "green"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "building/not_so_good_sand",
+    "rewards": {
+        "function": "custom:functions/dirt_collection",
+        "experience": 100
+    },		
+    "criteria": {
+        "coarsed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt",
+						"data": 1
+                    }
+                ]
+            }
+        },
+        "podzol": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt",
+						"data": 2
+                    }
+                ]
+            }
+        },
+        "mycelium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:mycelium",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"coarsed"
+        ],
+        [
+        "podzol"
+        ],
+        [
+        "mycelium"
+        ]
+		]
+}

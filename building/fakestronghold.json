@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stonebrick",
+			"data": 0
+        },
+        "title": {
+		"text":"Fake stronghold",
+		"color":"green"
+		},
+        "description": {
+			"text": "Collect all the types of stone bricks",
+			"color": "gray"
+		}
+    },
+    "parent": "building/stonemason",
+    "rewards": {
+		"function": "custom:functions/fakestronghold"
+    },		
+    "criteria": {
+        "stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stonebrick",
+						"data": 0
+                    }
+                ]
+            }
+        },
+        "mossy_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stonebrick",
+						"data": 1
+                    }
+                ]
+            }
+        },
+        "cracked_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stonebrick",
+						"data": 2
+                    }
+                ]
+            }
+        },
+        "chiseled_stone_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stonebrick",
+						"data": 3
+                    }
+                ]
+            }
+        }	
+	},
+	"requirements": [
+		[
+		"stone_bricks"
+		],
+		[
+		"mossy_stone_bricks"
+		],
+		[
+		"cracked_stone_bricks"
+		],
+		[
+		"chiseled_stone_bricks"
+		]
+	]
+}

@@ -1,0 +1,97 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Looked room",
+			"color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "Craft a door to stop monsters from entering your house",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:wooden_door"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/blocks/stonebrick.png"
+    },
+    "criteria": {
+        "oak_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_door"
+                    }
+                ]
+            }
+        },
+        "spruce_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_door"
+                    }
+                ]
+            }
+        },
+        "iron_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_door"
+                    }
+                ]
+            }
+        },
+        "birch_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_door"
+                    }
+                ]
+            }
+        },
+        "acacia_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_door"
+                    }
+                ]
+            }
+        },
+        "jungle_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_door"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "oak_door",
+            "spruce_door",
+            "iron_door",
+            "birch_door",
+            "acacia_door",
+            "jungle_door"
+        ]
+    ],
+    "rewards": {
+        "function": "custom:functions/looked_room"
+    }
+}

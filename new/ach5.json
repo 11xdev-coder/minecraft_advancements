@@ -1,0 +1,14 @@
+{"display":
+	{"description":"Craft your first pickaxe",
+	"title":
+		{"text":"Time to mine!","italic":true,"color":"gold"},
+	"icon":
+		{"item":"wooden_pickaxe","data":0},
+	"frame":"task"},
+	"criteria":{"inv_changed-wooden_pickaxe":
+		{"trigger":"minecraft:inventory_changed",
+		"conditions":
+			{"items":[{"item":"wooden_pickaxe","data":0}]}}},
+	"rewards":{},
+	"requirements":[["inv_changed-wooden_pickaxe"]],
+	"parent":"new/ach4"}

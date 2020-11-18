@@ -1,0 +1,14 @@
+{"display":
+	{"description":"Craft your first work table",
+	"title":
+		{"text":"Benchmaking","bold":true,"color":"yellow"},
+	"icon":
+		{"item":"crafting_table","data":0},
+	"frame":"task"},
+	"criteria":{"inv_changed-crafting_table":
+		{"trigger":"minecraft:inventory_changed",
+		"conditions":
+			{"items":[{"item":"crafting_table","data":0}]}}},
+	"rewards":{},
+	"requirements":[["inv_changed-crafting_table"]],
+	"parent":"new/root"}

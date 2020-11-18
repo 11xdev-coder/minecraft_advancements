@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz_block",
+			"data": 1
+        },
+        "title": {
+		"text":"Decoring on max!",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Collect all the types of quartz block",
+			"color": "green"
+		}
+    },
+    "parent": "building/fakefortress",
+    "rewards": {
+		"function": "custom:functions/decoring_on_max"
+    },		
+    "criteria": {
+        "quartz_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz_block",
+						"data": 0
+                    }
+                ]
+            }
+        },
+        "chiseled_quartz_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz_block",
+						"data": 1
+                    }
+                ]
+            }
+        },
+        "pillar_quartz_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz_block",
+						"data": 2
+                    }
+                ]
+            }
+        },
+        "quartz_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz_stairs",
+						"data": 0
+                    }
+                ]
+            }
+        }	
+	},
+	"requirements": [
+		[
+		"quartz_block"
+		],
+		[
+		"chiseled_quartz_block"
+		],
+		[
+		"pillar_quartz_block"
+		],
+		[
+		"quartz_stairs"
+		]
+	]
+}

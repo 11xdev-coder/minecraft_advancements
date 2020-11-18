@@ -1,0 +1,221 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bed",
+			"data": 8
+        },
+        "title": {
+		"text":"Color dreams",
+		"color":"green"
+		},
+        "description": {
+			"text": "Get the color bed",
+			"color": "gold"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "building/not_so_good_sand",
+    "rewards": {
+    },		
+    "criteria": {
+        "white_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 0
+                    }
+                ]
+            }
+        },
+		"orange_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 1
+                    }
+                ]
+            }
+        },
+		"magenta_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 2
+                    }
+                ]
+            }
+        },
+		"light_blue_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 3
+                    }
+                ]
+            }
+        },
+		"yellow_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 4
+                    }
+                ]
+            }
+        },
+		"lime_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 5
+                    }
+                ]
+            }
+        },
+		"pink_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 6
+                    }
+                ]
+            }
+        },
+		"gray_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:conbedcrete",
+						"data": 7
+                    }
+                ]
+            }
+        },
+		"light_gray_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 8
+                    }
+                ]
+            }
+        },
+		"cyan_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 9
+                    }
+                ]
+            }
+        },
+		"purple_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 10
+                    }
+                ]
+            }
+        },
+		"blue_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 11
+                    }
+                ]
+            }
+        },
+		"brown_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 12
+                    }
+                ]
+            }
+        },
+		"green_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 13
+                    }
+                ]
+            }
+        },
+		"red_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 14
+                    }
+                ]
+            }
+        },
+		"black_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bed",
+						"data": 15
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"white_clay",
+		"orange_clay",
+		"magenta_clay",
+		"light_blue_clay",
+		"yellow_clay",
+		"lime_clay",
+		"pink_clay",
+		"gray_clay",
+		"light_gray_clay",
+		"cyan_clay",
+		"purple_clay",
+		"blue_clay",
+		"brown_clay",
+		"green_clay",
+		"red_clay",
+        "black_clay"
+        ]
+        ]
+}

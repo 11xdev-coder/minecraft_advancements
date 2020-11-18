@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glass",
+			"data": 0
+        },
+        "title": {
+		"text":"Ordinary glass",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Just melt the sand in the furnace",
+			"color": "green"
+		}
+    },
+    "parent": "building/not_so_good_sand",
+    "rewards": {
+		"function": "custom:functions/ordinary_glass"
+    },		
+    "criteria": {
+        "glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glass",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"glass"
+		]
+		]
+}

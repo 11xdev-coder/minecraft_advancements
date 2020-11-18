@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_bars",
+			"data": 0
+        },
+        "title": {
+		"text":"Jail at home?",
+		"color":"gold"
+		},
+        "description": {
+			"text": "Craft the iron bars",
+			"color": "green"
+		}
+    },
+    "parent": "building/fakestronghold",
+    "rewards": {
+		"function": "custom:functions/jailathome"
+    },		
+    "criteria": {
+        "iron_bars": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_bars",
+						"data": 0
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+		"iron_bars"
+		]
+		]
+}
+	

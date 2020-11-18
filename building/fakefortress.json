@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_brick",
+			"data": 0
+        },
+        "title": {
+		"text":"Fake fortress",
+		"color":"green"
+		},
+        "description": {
+			"text": "Collect all the types of nether bricks",
+			"color": "gray"
+		}
+    },
+    "parent": "building/fakestronghold",
+    "rewards": {
+		"function": "custom:functions/fakefortress"
+    },		
+    "criteria": {
+        "nether_brick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_brick",
+						"data": 0
+                    }
+                ]
+            }
+        },
+        "nether_brick_fence": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_brick_fence",
+						"data": 0
+                    }
+                ]
+            }
+        },
+        "nether_brick_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_brick_stairs",
+						"data": 0
+                    }
+                ]
+            }
+        },
+        "red_nether_brick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_nether_brick",
+						"data": 0
+                    }
+                ]
+            }
+        }	
+	},
+	"requirements": [
+		[
+		"nether_brick"
+		],
+		[
+		"nether_brick_fence"
+		],
+		[
+		"nether_brick_stairs"
+		],
+		[
+		"red_nether_brick"
+		]
+	]
+}
