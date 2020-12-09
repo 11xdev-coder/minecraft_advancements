@@ -1,0 +1,1 @@
+give @p minecraft:nether_brick 64

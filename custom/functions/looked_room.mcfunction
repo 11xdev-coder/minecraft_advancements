@@ -1,0 +1,1 @@
+give @p minecraft:wooden_door

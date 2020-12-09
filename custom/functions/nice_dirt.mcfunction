@@ -1,0 +1,1 @@
+give @s minecraft_stone_shovel

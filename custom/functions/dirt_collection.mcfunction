@@ -1,0 +1,1 @@
+give 0xdev minecraft:enchanted_book 1 0 {StoredEnchantments:[{id:33,lvl:1}]}

@@ -1,0 +1,1 @@
+give @p minecraft:hardened_clay 32

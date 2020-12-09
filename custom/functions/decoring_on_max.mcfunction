@@ -1,0 +1,1 @@
+give @p minecraft:quartz_block 32
